@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    transition: background 0.2s ease-out;
+}
+
+.content {
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*header & footer*/
+header, footer {
+    background: #37694c;
+    padding: 1px;
+}
+
+header {
+    background-image: url("../images/header.jpg");
+    background-size: cover;
+    text-shadow: 0 0 3px #000;
+    border-bottom: 1px solid #969696;
+    padding-bottom: 0;
+    font-family: serif;
+}
+
+header .content {
+    margin-bottom: 0;
+}
+
+header #title {
+    font-size: 23px;
+}
+
+header img {
+    padding-right: 25px;
+    height: 60px;
+}
+
+header #logo {
+    float: left;
+}
+
+header #zjzw_logo {
+    float: right;
+}
+
+footer {
+    color: white;
+}
+
+footer #link a {
+    padding: 0 5px;
+}
+
+footer a:hover {
+    text-shadow: 0 0 10px #000;
+}
+
+/*nav*/
+nav ul {
+    /*list-style: none;*/
+    /*display: inline;*/
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    padding: 4px 25px;
+    border: 1px solid #969696;
+    border-bottom: 0;
+    letter-spacing: normal;
+    background-color: rgba(255, 255, 255, 0.15);
+    font-size: large;
+    /*letter-spacing: -5px;*/
+}
+
+nav li:hover {
+    background: rgba(212, 212, 212, 0.55);
+}
+
+nav .now {
+    background: rgba(212, 212, 212, 0.55);
+}
+
+nav a {
+    letter-spacing: -5px;
+}
