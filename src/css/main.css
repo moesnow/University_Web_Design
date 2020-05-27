@@ -1,10 +1,11 @@
 body {
     margin: 0;
+    font-family: serif;
     transition: background 0.2s ease-out;
 }
 
 .content {
-    width: 75%;
+    width: 70%;
     margin-top: 30px;
     margin-bottom: 30px;
     margin-left: auto;
@@ -13,7 +14,6 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 /*header & footer*/
@@ -22,14 +22,18 @@ header, footer {
     padding: 1px;
 }
 
+header a, footer a {
+    color: white;
+}
+
 header {
     background-image: url("../images/header.jpg");
     background-size: cover;
-    text-shadow: 0 0 3px #000;
+    text-shadow: 4px 7px 5px #000;
     border-bottom: 3px solid #37694c;
     padding-bottom: 0;
-    font-family: serif;
 }
+
 
 header .content {
     margin-bottom: 0;
@@ -61,7 +65,7 @@ footer #link a {
 }
 
 footer a:hover {
-    text-shadow: 0 0 10px #000;
+    text-shadow: 3px 3px 7px #000;
 }
 
 /*nav*/
@@ -83,13 +87,79 @@ nav li {
 }
 
 nav li:hover {
-    background: rgba(212, 212, 212, 0.55);
+    background: rgba(34, 30, 30, 0.55);
 }
 
 nav .now {
-    background: rgba(212, 212, 212, 0.55);
+    background: rgba(34, 30, 30, 0.55);
 }
 
 nav a {
     letter-spacing: -5px;
+}
+
+/*div one*/
+#main a {
+    color: black;
+}
+
+#main a:hover {
+    color: #37694c;
+    text-decoration: underline;
+}
+
+#one div {
+    display: inline-block;
+    width: 49%;
+    text-align: center;
+}
+
+#one div div {
+    width: 80%;
+}
+
+#one div img {
+    width: 100%;
+}
+
+#one h1 {
+    color: #37694c;
+    margin-top: 0;
+    text-shadow: 1px 1px 3px #949393;
+}
+
+#one ul {
+    text-align: left;
+    font-size: large;
+    margin-left: 20%;
+}
+
+#one li {
+    /*padding: 8px 0;*/
+}
+
+#one #web a {
+    padding: 0 10px;
+}
+
+.right {
+    position: absolute;
+}
+
+.pic_outer {
+    position: relative;
+}
+
+.pic_cover {
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, .50);
+    color: #FFFFFF;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
