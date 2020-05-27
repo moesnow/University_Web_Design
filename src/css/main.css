@@ -1,3 +1,4 @@
+/*Global*/
 body {
     margin: 0;
     font-family: serif;
@@ -10,6 +11,15 @@ body {
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#main h1 {
+    border-bottom: 3px solid #37694c;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    width: 200px;
 }
 
 a {
@@ -37,6 +47,7 @@ header {
 
 header .content {
     margin-bottom: 0;
+    padding-top: 5px;
 }
 
 header #title {
@@ -58,6 +69,7 @@ header #zjzw_logo {
 
 footer {
     color: white;
+    padding: 20px 0;
 }
 
 footer #link a {
@@ -73,18 +85,21 @@ nav ul {
     /*list-style: none;*/
     /*display: inline;*/
     margin: 0;
+    padding-top: 15px;
 }
 
 nav li {
     display: inline-block;
     padding: 4px 25px;
     border: 1px solid #969696;
+    text-shadow: 0 1px 5px #000;
     border-bottom: 0;
     letter-spacing: normal;
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(67, 82, 59, 0.25);
     font-size: large;
     /*letter-spacing: -5px;*/
 }
+
 
 nav li:hover {
     background: rgba(34, 30, 30, 0.55);
@@ -98,7 +113,22 @@ nav a {
     letter-spacing: -5px;
 }
 
-/*div one*/
+/*Main*/
+.inline_block {
+    display: inline-block;
+    text-align: center;
+}
+
+.module h1 {
+    color: #37694c;
+    margin-top: 0;
+    text-shadow: 1px 1px 3px #949393;
+}
+
+.module {
+    margin-bottom: 18px;
+}
+
 #main a {
     color: black;
 }
@@ -108,24 +138,23 @@ nav a {
     text-decoration: underline;
 }
 
-#one div {
-    display: inline-block;
-    width: 49%;
-    text-align: center;
+/*div one*/
+
+#one .inline_block {
+    width: 50%;
 }
 
-#one div div {
+#pic div {
+    display: inline-block;
     width: 80%;
 }
 
-#one div img {
+#pic img {
     width: 100%;
 }
 
-#one h1 {
-    color: #37694c;
-    margin-top: 0;
-    text-shadow: 1px 1px 3px #949393;
+#one {
+    margin-bottom: 50px;
 }
 
 #one ul {
@@ -134,13 +163,10 @@ nav a {
     margin-left: 20%;
 }
 
-#one li {
-    /*padding: 8px 0;*/
-}
-
 #one #web a {
     padding: 0 10px;
 }
+
 
 .right {
     position: absolute;
@@ -162,4 +188,81 @@ nav a {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
+}
+
+
+/*div two*/
+
+#two .inline_block {
+    width: 33%;
+}
+
+#two ul {
+    text-align: left;
+    /*overflow: hidden;*/
+    white-space: nowrap;
+    /*text-overflow: ellipsis;*/
+}
+
+.q {
+    font-size: 13px;
+    line-height: 30px;
+    padding-left: 8px;
+    height: 26px;
+    width: 175px;
+    border: 1px solid #37694c;
+    display: inline;
+}
+
+.sub {
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    background: #37694c;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.circle {
+    display: block;
+}
+
+.circle div {
+    display: inline-block;
+    width: 35%;
+}
+
+.circle i {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 100%;
+    cursor: default;
+    display: inline-block;
+    line-height: 4em;
+    width: 4em;
+}
+
+/*Backtop*/
+#backtop {
+    width: 50px;
+    height: 50px;
+    background: #FFF;
+    -webkit-box-shadow: 0 2px 7px rgba(0, 0, 0, .28);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, .28);
+    border-radius: 25px;
+    position: fixed;
+    bottom: 28px;
+    right: 50px;
+    text-align: center;
+    color: #666;
+    cursor: pointer;
+    z-index: 750;
+}
+
+#backtop .fas {
+    font-size: 30px;
+    line-height: 50px;
+    display: block;
 }
