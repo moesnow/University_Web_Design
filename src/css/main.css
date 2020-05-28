@@ -296,8 +296,9 @@ nav .submenu a {
     border-radius: 100%;
     cursor: default;
     display: inline-block;
-    line-height: 4em;
-    width: 4em;
+    line-height: 2.5em;
+    width: 2.5em;
+    font-size: 30px;
 }
 
 /*Backtop*/
@@ -368,6 +369,14 @@ nav .submenu a {
     text-indent: unset !important;
     font-size: unset !important;;
     text-align: center !important;;
+}
+
+.circle i:hover {
+    transform: rotate(720deg);
+}
+
+.circle i {
+    transition: transform 1.0s;
 }
 
 /*Responsive*/
