@@ -103,7 +103,7 @@ nav ul {
 nav li {
     width: 140px;
     display: inline-block;
-    padding: 4px 0px;
+    padding: 4px 0;
     border: 1px solid #969696;
     text-shadow: 0 1px 5px #000;
     border-bottom: 0;
@@ -152,7 +152,7 @@ nav .submenu a {
 .submenu a {
     /*display: inline-block;*/
     width: 140px;
-    padding: 4px 0px;
+    padding: 4px 0;
     border: 1px solid #969696;
     text-shadow: 0 1px 5px #000;
     border-bottom: 0;
@@ -350,6 +350,26 @@ nav .submenu a {
     color: black;
 }
 
+/*Govern*/
+.govern img {
+    width: 50%;
+}
+
+.govern p {
+    font-size: 21px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 2em;
+    text-align: left;
+}
+
+.description {
+    text-indent: unset !important;
+    font-size: unset !important;;
+    text-align: center !important;;
+}
+
 /*Responsive*/
 @media only screen and (max-width: 1500px) {
     nav li, .submenu a {
@@ -445,7 +465,7 @@ nav .submenu a {
     }
 
     header .content {
-        padding-top: 0px;
+        padding-top: 0;
     }
 
     footer {
@@ -466,5 +486,14 @@ nav .submenu a {
 
     .subinline li {
         display: list-item;
+    }
+
+    .govern img {
+        width: 100%;
+    }
+
+    .govern p {
+        font-size: unset;
+        width: unset;
     }
 }
