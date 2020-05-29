@@ -98,6 +98,7 @@ nav ul {
     /*display: inline;*/
     margin: 0;
     padding-top: 15px;
+    font-size: 0;
 }
 
 nav li {
@@ -428,7 +429,7 @@ nav .submenu a {
     }
 
     nav li, .submenu a {
-        font-size: unset;
+        font-size: medium;
     }
 
     nav ul {
