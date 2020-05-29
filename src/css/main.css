@@ -1,7 +1,6 @@
 /*Global*/
 body {
     margin: 0;
-    font-family: serif;
     transition: background 0.2s ease-out;
 }
 
@@ -38,6 +37,7 @@ a {
 header, footer {
     background: #37694c;
     padding: 1px;
+    font-family: serif;
 }
 
 header a, footer a {
@@ -90,7 +90,7 @@ footer a:hover {
 
 /*nav*/
 nav {
-    letter-spacing: -5px
+    letter-spacing: -5px;
 }
 
 nav ul {
@@ -178,6 +178,7 @@ nav .submenu a {
     margin-top: 0;
     text-shadow: 1px 1px 3px #949393;
     text-align: center;
+    font-family: serif;
 }
 
 .module {
